@@ -136,7 +136,7 @@ object TestReport : BuildType({
 
 object AppVcs : GitVcsRoot({
     name = "AppVcs"
-    url = "https://github.com/semenova-ev/Build-Chain-Project"
+    url = "https://github.com/semenova-ev/Pipeline"
     branch = "master"
     checkoutPolicy = GitVcsRoot.AgentCheckoutPolicy.USE_MIRRORS
 })
